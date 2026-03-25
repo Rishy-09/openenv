@@ -1,0 +1,43 @@
+# Virtual environments
+.venv/
+venv/
+env/
+.venv-reinf/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Outputs, caches, models, logs
+outputs/
+cache/
+runs/
+logs/
+*.pkl
+*.bin
+*.pth
+*.h5
+*.onnx
+
+# Secrets & tokens
+.env
+*.key
+tokens.txt
+secrets/
+credentials/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Large files (add more if you see any)
+*.pt
+*.bin
+*.zip
+*.tar
